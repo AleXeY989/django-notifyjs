@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name='django-bxslider',
     version='4.1.2',
-    url='http://bxslider.com/',
+    url='https://github.com/AleXeY989/django_bxslider.git',
     description='Django package for jquery-bxslider: The Responsive jQuery Content Slider',
     author='Steven Wanderski',
     maintainer='AleXeY989',
@@ -23,5 +23,5 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_bxslider'],
-    package_data={'django_bxslider': ['static/js/django_bxslider/*.js', 'static/css/django_bxslider/*.css', 'static/img/django_bxslider/*.gif', 'static/img/django_bxslider/*.png', 'static/plugins/django_bxslider/*.js']}
+    package_data={'django_bxslider': ['static/js/django_bxslider/*.js', 'static/css/django_bxslider/*.css', 'static/img/django_bxslider/*.gif', 'static/img/django_bxslider/*.png']}
 )
