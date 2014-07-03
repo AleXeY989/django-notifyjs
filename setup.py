@@ -3,10 +3,10 @@ from setuptools import setup
 
 setup(
     name='django-bxslider',
-    version='1.5.10',
-    url='https://github.com/AleXeY989/django-bxslider.git',
-    description='Django package for jquery-bxslider: A lightweight customizable lightbox plugin for jQuery',
-    author='Jack Moore',
+    version='4.1.2',
+    url='http://bxslider.com/',
+    description='Django package for jquery-bxslider: The Responsive jQuery Content Slider',
+    author='Steven Wanderski',
     maintainer='AleXeY989',
     maintainer_email='alex1chupahin@ya.ru',
     license='MIT License',
@@ -22,6 +22,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Utilities',
     ],
-    packages=['django-bxslider'],
-    package_data={'django_bxslider': ['static/js/*.js']}
+    packages=['django_bxslider'],
+    package_data={'django_bxslider': ['static/js/django_bxslider/*.js', 'static/css/django_bxslider/*.css', 'static/img/django_bxslider/*.gif', 'static/img/django_bxslider/*.png', 'static/plugins/django_bxslider/*.js']}
 )
