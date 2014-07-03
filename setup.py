@@ -23,5 +23,5 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_bxslider'],
-    package_data={'django_bxslider': ['static/js/django_bxslider/*.js', 'static/css/django_bxslider/*.css', 'static/img/django_bxslider/*.gif', 'static/img/django_bxslider/*.png']}
+    package_data={'django_bxslider': ['static/django_bxslider/js/*.js', 'static/django_bxslider/css/*.css', 'static/django_bxslider/img/*.gif', 'static/django_bxslider/img/*.png']}
 )
