@@ -1,2 +1,2 @@
-django-bxslider-4.1.2
+Notify.js v0.3.1
 =========

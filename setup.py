@@ -2,15 +2,15 @@
 from setuptools import setup
 
 setup(
-    name='django-bxslider',
-    version='4.1.2',
-    url='https://github.com/AleXeY989/django_bxslider.git',
-    description='Django package for jquery-bxslider: The Responsive jQuery Content Slider',
-    author='Steven Wanderski',
+    name='django-notifyjs',
+    version='v0.3.1',
+    url='https://github.com/AleXeY989/django-notifyjs.git',
+    description='Django package for jquery-notifyjs: Notify.js is a jQuery plugin to provide simple yet fully customisable notifications.',
+    author='Jaime Pillora',
     maintainer='AleXeY989',
     maintainer_email='alex1chupahin@ya.ru',
     license='MIT License',
-    keywords=['django', 'jquery', 'bxslider'],
+    keywords=['django', 'jquery', 'notifyjs'],
     platforms='any',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -22,6 +22,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Utilities',
     ],
-    packages=['django_bxslider'],
-    package_data={'django_bxslider': ['static/django_bxslider/js/*.js', 'static/django_bxslider/css/*.css', 'static/django_bxslider/img/*.gif', 'static/django_bxslider/img/*.png']}
+    packages=['django_notifyjs'],
+    package_data={'django_notifyjs': ['static/django_notifyjs/js/*.js']}
 )
